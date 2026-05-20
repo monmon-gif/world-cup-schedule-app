@@ -1,0 +1,276 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #222;
+}
+
+.app-header {
+  background: #0b3d91;
+  color: white;
+  padding: 24px 16px;
+  text-align: center;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.app-header p {
+  margin: 8px 0 0;
+  font-size: 14px;
+}
+
+.app-main {
+  max-width: 430px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.search-area {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.search-area input {
+  flex: 1;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.search-wrapper input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.search-area button {
+  padding: 12px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background: #0b3d91;
+  color: white;
+  flex-shrink: 0;
+}
+
+.calendar-area h2 {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.calendar-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.date-card {
+  background: white;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.date-card h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+}
+
+.date-card p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.week-row {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+}
+
+.day-card {
+  aspect-ratio: 1;
+  background: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  position: relative;
+  cursor: pointer;
+}
+
+.day-card.has-match {
+  background: #0b3d91;
+  color: white;
+}
+
+.day-number {
+  font-size: 22px;
+  line-height: 1;
+}
+
+.flag {
+  font-size: 20px;
+  line-height: 1;
+  margin-top: 6px;
+}
+
+.japan-flag {
+  width: 24px;
+  height: 16px;
+  background: white;
+  border-radius: 2px;
+  margin-top: 6px;
+  position: relative;
+}
+
+.japan-flag::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: #d7003a;
+  border-radius: 50%;
+  position: absolute;
+  top: 4px;
+  left: 8px;
+}
+
+.match-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px 16px;
+  margin-bottom: 12px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.match-date {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.match-time {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.match-teams {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.flag-image {
+  width: 42px;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+}
+
+.team span {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.vs {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.back-button {
+  display: block;
+  margin: 0 auto 12px;
+  background: white;
+  color: #0b3d91;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-weight: bold;
+}
+
+.search-wrapper {
+  position: relative;
+  flex: 1;
+}
+
+.suggest-list {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  right: 0;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  overflow: hidden;
+  z-index: 10;
+}
+
+.suggest-item {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.suggest-item:hover {
+  background: #f0f4ff;
+}
+
+.suggest-item:last-child {
+  border-bottom: none;
+}
+
+.month-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.month-nav h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.month-nav button {
+  border: none;
+  background: #0b3d91;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.knockout-label {
+  margin-top: 6px;
+  font-size: 10px;
+  font-weight: bold;
+  color: gold;
+}

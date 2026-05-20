@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>W杯日程アプリ</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="app-header">
+    <h1>W杯日程</h1>
+    <p>試合日程をチェック</p>
+  </header>
+
+  <main class="app-main">
+    <section class="search-area">
+      <div class="search-wrapper">
+        <input
+          type="text"
+          id="teamSearchInput"
+          placeholder="国名で検索"
+          list="teamList"
+        />
+
+        <datalist id="teamList"></datalist>
+
+      </div>
+
+      <button id="teamSearchButton">
+        検索
+      </button>
+    </section>
+
+    <section class="calendar-area">
+      <div class="month-nav">
+        <button id="prevMonthButton">← 6月</button>
+        <h2 id="monthTitle">2026年7月</h2>
+        <button id="nextMonthButton">7月 →</button>
+      </div>
+
+      <div class="week-row">
+        <div>日</div>
+        <div>月</div>
+        <div>火</div>
+        <div>水</div>
+        <div>木</div>
+        <div>金</div>
+        <div>土</div>
+      </div>
+
+      <div id="calendarGrid" class="calendar-grid">
+        <!-- JSで日付生成 -->
+      </div>
+    </section>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>
