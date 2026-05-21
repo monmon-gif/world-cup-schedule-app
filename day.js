@@ -39,12 +39,18 @@ function displayMatches(matches) {
     card.className = "match-card";
 
     card.innerHTML = `
-      <div class="match-date">${formatDate(match.date)}</div>
+      <div class="match-date">
+        ${formatDate(match.date)}
+      </div>
 
       <div class="match-time">
         ${match.time}〜
       </div>
 
+      <div class="match-group">
+        ${match.group}
+      </div>
+      
       <div class="match-teams">
 
         <div class="team">

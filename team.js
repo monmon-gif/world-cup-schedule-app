@@ -44,6 +44,10 @@ function displayMatches(matches) {
         ${match.time}〜
       </div>
 
+      <div class="match-group">
+        ${match.group}
+      </div>
+
       <div class="match-teams">
 
         <div class="team">
