@@ -37,6 +37,9 @@ function displayMatches(matches) {
   matches.forEach(match => {
     const card = document.createElement("div");
     card.className = "match-card";
+    const hasResult =
+    match.homeScore !== undefined &&
+    match.awayScore !== undefined;
 
     card.innerHTML = `
       <div class="match-date">
@@ -59,6 +62,9 @@ function displayMatches(matches) {
             src="https://flagcdn.com/w40/${countryCodeMap[match.home]}.png"
           >
           <span>${match.home}</span>
+          <span class="score">
+            ${hasResult ? `${match.homeScore}` : ""}
+          </span>
         </div>
 
         <div class="vs">
@@ -71,6 +77,9 @@ function displayMatches(matches) {
             src="https://flagcdn.com/w40/${countryCodeMap[match.away]}.png"
           >
           <span>${match.away}</span>
+          <span class="score">
+            ${hasResult ? `${match.awayScore}` : ""}
+          </span>
         </div>
 
       </div>

@@ -5,7 +5,9 @@
     "home": "メキシコ",
     "away": "南アフリカ",
     "group": "Group A",
-    "stadium": "エスタディオ・アステカ"
+    "stadium": "エスタディオ・アステカ",
+    "homeScore": 2,
+    "awayScore": 0
   },
   {
     "date": "2026-06-12",
@@ -13,7 +15,9 @@
     "home": "韓国",
     "away": "チェコ",
     "group": "Group A",
-    "stadium": "エスタディオ・グアダラハラ"
+    "stadium": "エスタディオ・グアダラハラ",
+    "homeScore": 2,
+    "awayScore": 1
   },
   {
     "date": "2026-06-19",
