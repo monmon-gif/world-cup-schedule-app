@@ -214,7 +214,7 @@
     "away": "キュラソー",
     "group": "Group E",
     "stadium": "ヒューストンスタジアム",
-    "homeScore": 4,
+    "homeScore": 7,
     "awayScore": 1
   },
   {
@@ -223,7 +223,9 @@
     "home": "コートジボワール",
     "away": "エクアドル",
     "group": "Group E",
-    "stadium": "フィラデルフィアスタジアム"
+    "stadium": "フィラデルフィアスタジアム",
+    "homeScore": 1,
+    "awayScore": 0
   },
   {
     "date": "2026-06-21",
@@ -273,7 +275,9 @@
     "home": "スウェーデン",
     "away": "チュニジア",
     "group": "Group F",
-    "stadium": "エスタディオ・モンテレイ"
+    "stadium": "エスタディオ・モンテレイ",
+    "homeScore": 5,
+    "awayScore": 1
   },
   {
     "date": "2026-06-21",
