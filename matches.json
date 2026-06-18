@@ -318,7 +318,9 @@
     "home": "ベルギー",
     "away": "エジプト",
     "group": "Group G",
-    "stadium": "シアトルスタジアム"
+    "stadium": "シアトルスタジアム",
+    "homeScore": 1,
+    "awayScore": 1
   },
   {
     "date": "2026-06-16",
@@ -326,7 +328,9 @@
     "home": "イラン",
     "away": "ニュージーランド",
     "group": "Group G",
-    "stadium": "ロサンゼルススタジアム"
+    "stadium": "ロサンゼルススタジアム",
+    "homeScore": 2,
+    "awayScore": 2
   },
   {
     "date": "2026-06-22",
@@ -367,7 +371,9 @@
     "home": "スペイン",
     "away": "カーボベルデ",
     "group": "Group H",
-    "stadium": "アトランタスタジアム"
+    "stadium": "アトランタスタジアム",
+    "homeScore": 0,
+    "awayScore": 0
   },
   {
     "date": "2026-06-16",
@@ -375,7 +381,9 @@
     "home": "サウジアラビア",
     "away": "ウルグアイ",
     "group": "Group H",
-    "stadium": "マイアミスタジアム"
+    "stadium": "マイアミスタジアム",
+    "homeScore": 1,
+    "awayScore": 1
   },
   {
     "date": "2026-06-22",
@@ -416,7 +424,9 @@
     "home": "フランス",
     "away": "セネガル",
     "group": "Group I",
-    "stadium": "ニューヨークニュージャージースタジアム"
+    "stadium": "ニューヨークニュージャージースタジアム",
+    "homeScore": 3,
+    "awayScore": 1
   },
   {
     "date": "2026-06-17",
@@ -424,7 +434,9 @@
     "home": "イラク",
     "away": "ノルウェー",
     "group": "Group I",
-    "stadium": "ボストンスタジアム"
+    "stadium": "ボストンスタジアム",
+    "homeScore": 1,
+    "awayScore": 4
   },
   {
     "date": "2026-06-23",
@@ -465,7 +477,9 @@
     "home": "アルゼンチン",
     "away": "アルジェリア",
     "group": "Group J",
-    "stadium": "カンザスシティースタジアム"
+    "stadium": "カンザスシティースタジアム",
+    "homeScore": 3,
+    "awayScore": 0
   },
   {
     "date": "2026-06-17",
@@ -473,7 +487,9 @@
     "home": "オーストリア",
     "away": "ヨルダン",
     "group": "Group J",
-    "stadium": "サンフランシスコベイエリアスタジアム"
+    "stadium": "サンフランシスコベイエリアスタジアム",
+    "homeScore": 3,
+    "awayScore": 1
   },
   {
     "date": "2026-06-23",
