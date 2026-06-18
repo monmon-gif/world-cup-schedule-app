@@ -529,7 +529,9 @@
     "home": "ポルトガル",
     "away": "コンゴ民主共和国",
     "group": "Group K",
-    "stadium": "ヒューストンスタジアム"
+    "stadium": "ヒューストンスタジアム",
+    "homeScore": 1,
+    "awayScore": 1
   },
   {
     "date": "2026-06-18",
@@ -537,7 +539,9 @@
     "home": "ウズベキスタン",
     "away": "コロンビア",
     "group": "Group K",
-    "stadium": "エスタディオ・アステカ"
+    "stadium": "エスタディオ・アステカ",
+    "homeScore": 1,
+    "awayScore": 3
   },
   {
     "date": "2026-06-24",
@@ -578,7 +582,9 @@
     "home": "イングランド",
     "away": "クロアチア",
     "group": "Group L",
-    "stadium": "ダラススタジアム"
+    "stadium": "ダラススタジアム",
+    "homeScore": 4,
+    "awayScore": 2
   },
   {
     "date": "2026-06-18",
@@ -586,7 +592,9 @@
     "home": "ガーナ",
     "away": "パナマ",
     "group": "Group L",
-    "stadium": "トロントスタジアム"
+    "stadium": "トロントスタジアム",
+    "homeScore": 1,
+    "awayScore": 0
   },
   {
     "date": "2026-06-24",
