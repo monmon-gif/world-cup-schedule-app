@@ -731,7 +731,9 @@
     "home": "南アフリカ",
     "away": "カナダ",
     "group": "ベスト32",
-    "stadium": "ロサンゼルス"
+    "stadium": "ロサンゼルス",
+    "homeScore": 0,
+    "awayScore": 1
   },
   {
     "date": "2026-06-30",
@@ -739,7 +741,9 @@
     "home": "ブラジル",
     "away": "日本",
     "group": "ベスト32",
-    "stadium": "ヒューストン"
+    "stadium": "ヒューストン",
+    "homeScore": 2,
+    "awayScore": 1
   },
   {
     "date": "2026-06-30",
@@ -747,7 +751,9 @@
     "home": "ドイツ",
     "away": "パラグアイ",
     "group": "ベスト32",
-    "stadium": "ボストン"
+    "stadium": "ボストン",
+    "homeScore": 1,
+    "awayScore": 1
   },
   {
     "date": "2026-06-30",
@@ -755,7 +761,9 @@
     "home": "オランダ",
     "away": "モロッコ",
     "group": "ベスト32",
-    "stadium": "モンテレイ"
+    "stadium": "モンテレイ",
+    "homeScore": 1,
+    "awayScore": 1
   },
   {
     "date": "2026-07-01",
@@ -763,7 +771,9 @@
     "home": "コートジボワール",
     "away": "ノルウェー",
     "group": "ベスト32",
-    "stadium": "ダラス"
+    "stadium": "ダラス",
+    "homeScore": 1,
+    "awayScore": 2
   },
   {
     "date": "2026-07-01",
@@ -771,7 +781,9 @@
     "home": "フランス",
     "away": "スウェーデン",
     "group": "ベスト32",
-    "stadium": "ニューヨーク/ニュージャージー"
+    "stadium": "ニューヨーク/ニュージャージー",
+    "homeScore": 3,
+    "awayScore": 0
   },
   {
     "date": "2026-07-01",
