@@ -973,7 +973,9 @@
     "home": "フランス",
     "away": "モロッコ",
     "group": "準々決勝",
-    "stadium": "ボストン"
+    "stadium": "ボストン",
+    "homeScore": 2,
+    "awayScore": 0
   },
   {
     "date": "2026-07-11",
@@ -981,7 +983,9 @@
     "home": "スペイン",
     "away": "ベルギー",
     "group": "準々決勝",
-    "stadium": "ロサンゼルス"
+    "stadium": "ロサンゼルス",
+    "homeScore": 2,
+    "awayScore": 1
   },
   {
     "date": "2026-07-12",
@@ -989,7 +993,9 @@
     "home": "ノルウェー",
     "away": "イングランド",
     "group": "準々決勝",
-    "stadium": "マイアミ"
+    "stadium": "マイアミ",
+    "homeScore": 1,
+    "awayScore": 2
   },
   {
     "date": "2026-07-12",
@@ -997,22 +1003,24 @@
     "home": "アルゼンチン",
     "away": "スイス",
     "group": "準々決勝",
-    "stadium": "カンザスシティー"
+    "stadium": "カンザスシティー",
+    "homeScore": 3,
+    "awayScore": 1
   },
 
   {
     "date": "2026-07-15",
     "time": "04:00",
-    "home": "未定",
-    "away": "未定",
+    "home": "フランス",
+    "away": "スペイン",
     "group": "準決勝",
     "stadium": "ダラス"
   },
   {
     "date": "2026-07-16",
     "time": "04:00",
-    "home": "未定",
-    "away": "未定",
+    "home": "イングランド",
+    "away": "アルゼンチン",
     "group": "準決勝",
     "stadium": "アトランタ"
   },
